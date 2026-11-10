@@ -47,9 +47,9 @@ Key decisions and why:
 
 Each version adds a feature *and* a system design concept.
 
-- [x] **v0.1** — upload, chunk, embed, ask with citations · *API design, async processing basics*
-- [ ] **v0.2** — move ingestion to a Redis-queue worker with retries · *message queues, idempotency, failure handling*
-- [ ] **v0.3** — hybrid search (vector + full-text, RRF) and reranking · *indexing, search tradeoffs*
-- [ ] **v0.4** — eval set + metrics (hit rate, faithfulness) · *measuring quality*
-- [ ] **v0.5** — Redis answer cache, rate limiting, streaming responses · *caching, rate limiting*
-- [ ] **v0.6** — Dockerfile, CI, deploy, structured logs + tracing · *observability, deployment*
+- [x] **v0.1** — upload, chunk, embed, ask with citations  (*API design, async processing basics*)
+- [ ] **v0.2** — move ingestion to a Redis-queue worker with retries  (*message queues, idempotency, failure handling*)
+- [ ] **v0.3** — hybrid search (vector + full-text, RRF) and reranking  (*indexing, search tradeoffs*)
+- [ ] **v0.4** — eval set + metrics (hit rate, faithfulness)  (*measuring quality*)
+- [ ] **v0.5** — Redis answer cache, rate limiting, streaming responses  (*caching, rate limiting*)
+- [ ] **v0.6** — Dockerfile, CI, deploy, structured logs + tracing  (*observability, deployment*)
