@@ -1,0 +1,17 @@
+# secrets — never commit
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# runtime data (uploaded PDFs)
+uploads/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
